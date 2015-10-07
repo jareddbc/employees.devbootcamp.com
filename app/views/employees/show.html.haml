@@ -1,4 +1,5 @@
 = simple_form_for @employee do |f|
   = f.input :name
-  = f.input :email_local_part
+  = f.input :email_local_part, as: :string
   = f.input :employed
+  = f.button :submit
