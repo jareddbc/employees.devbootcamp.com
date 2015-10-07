@@ -1,6 +1,6 @@
-class CreateUsers < ActiveRecord::Migration
+class CreateEmployees < ActiveRecord::Migration
   def change
-    create_table :users do |t|
+    create_table :employees do |t|
       t.string :name,                 null: false
       t.string :email_local_part
       t.boolean :employed
@@ -9,6 +9,6 @@ class CreateUsers < ActiveRecord::Migration
 
       t.timestamps null: false
     end
-    add_index :users, :email_local_part, unique: true
+    add_index :employees, :email_local_part, unique: true
   end
 end

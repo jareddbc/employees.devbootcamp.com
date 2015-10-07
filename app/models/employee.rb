@@ -1,4 +1,4 @@
-class User < ActiveRecord::Base
+class Employee < ActiveRecord::Base
 
   validates :name, presence: true
 

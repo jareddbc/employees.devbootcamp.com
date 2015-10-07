@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
 
-  get 'homepage/show'
+  resources :employees, path: '/'
 
   root to: 'homepage#show'
 
