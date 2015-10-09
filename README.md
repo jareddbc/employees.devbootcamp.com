@@ -16,3 +16,18 @@
 - referbish laptop
 - disable company email account
 -
+
+
+
+# notes
+
+onboarding checklist
+offboarding checklist
+invintory of all software and hardware
+employee info including circles
+
+
+
+
+employees.devbootcamp.com/Jared+Grippe
+employees.devbootcamp.com/Jared+Grippe
