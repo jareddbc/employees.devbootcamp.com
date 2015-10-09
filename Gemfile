@@ -8,6 +8,7 @@ gem 'bower-rails'
 gem 'sprockets'
 # gem 'sprockets-es6'
 gem 'simple_form'
+gem 'bootstrap', git: 'https://github.com/twbs/bootstrap-rubygem'
 
 group :development, :test do
   gem 'pry-rails'
